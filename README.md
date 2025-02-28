@@ -1,5 +1,4 @@
-In this project, we will scrape a quote and details of the author from this site http//quotes.toscrape.com using python framework called BeautifulSoup and develop a guessing game using different data structures and algorithm.
-
+In this project, we will scrape a quote and details of the author from this site http//quotes.toscrape.com using python framework called BeautifulSoup and develop a guessing game using different data structures and algorithm. 
 The user will be given 4 chances to guess the author of a famous quote, In every chance the user will be provided with a hint which can be the author’s birth date, first name’s first letter, second name’s first letter, etc. On successfully guessing the author, a message is printed and if the user fails to guess the answer even after all the 4 chances then again a message is printed along with the answer.
 Approach:
 1)Import module
@@ -26,11 +25,8 @@ The space complexity of this code is O(N) because the all_quotes list is storing
 ******************************************************************************************************************************************************************************
 
 Bu projede, BeautifulSoup adlı Python frame'ini kullanarak http://quotes.toscrape.com sitesinden bir alıntıyı ve yazarına ait bilgileri alacağız. Daha sonra, farklı veri yapıları ve algoritmalar kullanarak bir tahmin oyunu geliştireceğiz.
-
 Kullanıcıya ünlü bir alıntının yazarı hakkında tahminde bulunması için 4 hak verilecektir. Her tahmin hakkından sonra kullanıcıya bir ipucu sağlanacaktır. Bu ipuçları yazarın doğum tarihi, adının ilk harfi, soyadının ilk harfi gibi bilgiler olabilir. Kullanıcı doğru cevabı tahmin ederse bir başarı mesajı görüntülenir. Ancak, 4 hakkını da kullanmasına rağmen doğru tahminde bulunamazsa, bir başarısızlık mesajı gösterilir ve doğru cevap açıklanır.
-
 Yaklaşım:
-
 1)Modülleri içe aktar
   -requests: Web sayfasını almak için kullanılır, yanıt metin olarak saklanır.
   -bs4: BeautifulSoup nesnesi oluşturarak HTML içeriğini ayrıştırmak için kullanılır.
